@@ -16,21 +16,14 @@ AI Infra Intern @ Huawei 2012 Labs
 
 ---
 
-I write kernels that chase cuBLAS, and inference paths that cut tail latency.
+### About
 
-### Work
+HPC student, working on **high-performance operators for GPU and NPU** — GEMM, attention, fusion, and the profiling that tells you where the cycles actually go.
 
-**[SGEMM_CUDA_P100](https://github.com/GuoHaojiee/SGEMM_CUDA_P100)** — SGEMM from scratch, three paths to cuBLAS parity<br/>
-`Triton Split-K` **106.6%** of cuBLAS · `CUDA Core` **91.6%** · `Tensor Core` **86–90%** (M=N=K=4096)
+Two things I'm digging into right now:
 
-**[FlashAttention_CUDA](https://github.com/GuoHaojiee/FlashAttention_CUDA)** — tiling + online softmax, O(N²) → O(N)<br/>
-**7.2×** end-to-end speedup, profiled kernel by kernel with Nsight Compute
-
-**[nano-vllm](https://github.com/GuoHaojiee/nano-vllm)** — chunked prefill scheduling for LLM inference<br/>
-TBT p99 **−53.7%** (189.0 → 87.5 ms) · CUDA Graph alone **+44.3%** throughput — Qwen3-0.6B on RTX 3050
-
-**[NavierStokes-3D](https://github.com/GuoHaojiee/NavierStokes-3D)** — 3D incompressible pseudo-spectral solver<br/>
-**8.46×** over MPI heFFTe with NVLink cuFFTXt (512³, 4×GPU) · all variants verified to ~1e-14
+- **AI-generated kernels** — how far LLMs can go in writing and auto-tuning performant operators
+- **Inference systems** — vLLM-style engines, scheduling, and the optimizations that move real latency numbers
 
 ### Experience
 
