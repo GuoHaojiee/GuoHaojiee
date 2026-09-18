@@ -4,8 +4,7 @@
 
 **GPU Kernels · HPC · AI Infra**
 
-MSc in High Performance Computing @ Moscow State University<br/>
-AI Infra Intern @ Huawei 2012 Labs
+MSc in High Performance Computing @ Moscow State University · AI Infra @ Huawei 2012 Labs
 
 [![Email](https://img.shields.io/badge/ghaojie@yandex.ru-D14836?style=flat-square&logo=maildotru&logoColor=white)](mailto:ghaojie@yandex.ru)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
@@ -16,26 +15,19 @@ AI Infra Intern @ Huawei 2012 Labs
 
 ---
 
-### About
-
-HPC student, working on **high-performance operators for GPU and NPU** — GEMM, attention, fusion, and the profiling that tells you where the cycles actually go.
-
-Two things I'm digging into right now:
-
-- **AI-generated kernels** — how far LLMs can go in writing and auto-tuning performant operators
-- **Inference systems** — vLLM-style engines, scheduling, and the optimizations that move real latency numbers
+> HPC student writing kernels for GPU and NPU — GEMM, attention, fusion.<br/>
+> Currently exploring **AI-generated kernels** and **LLM inference systems**.
 
 ### Experience
 
-**Huawei 2012 Labs** — Ascend operator modeling & optimization<br/>
-Cycle-level performance modeling (TileSim, DSL→IR→Cost Model→Evaluation) · `re_glu` kernel time **−38.1%**, end-to-end **+7%** · modeling accuracy to **91%**
-
-**Russian Academy of Sciences** — HPC scientific computing<br/>
-Ported a Navier-Stokes solver across 7 distributed FFT backends on MSU-270 (CPU/GPU, MPI/OpenMP/CUDA)
+|  |  |
+| :-- | :-- |
+| **Huawei 2012 Labs** | Ascend operator modeling — `re_glu` kernel time **−38.1%**, modeling accuracy **91%** |
+| **Russian Academy of Sciences** | Navier-Stokes solver across 7 distributed FFT backends on MSU-270 |
 
 ### Stack
 
-`C++` `CUDA` `Triton` `Python` `MPI` `OpenMP` `PyTorch` `Nsight Compute` `Ascend CANN` `CMake` `Linux`
+`C++` `CUDA` `Triton` `Python` `MPI` `OpenMP` `PyTorch` `Nsight Compute` `Ascend CANN` `Linux`
 
 <div align="center">
 
