@@ -1,5 +1,7 @@
 <div align="center">
+## 👋 About me
 
+嗨，我是 **郭浩杰 (Pengcheng Zhang)**，武汉大学软件工程在读 👋
 # Haojie Guo · 郭浩杰
 
 **GPU Kernels · HPC · AI Infra**
