@@ -56,7 +56,3 @@
 </table>
 
 ---
-
-<p align="center"><sub>📫 <b>ghaojie@yandex.ru</b> · welcome to reach out!</sub></p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:76B900,100:0B1F3A&height=100&section=footer" alt="footer"/>
